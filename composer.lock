@@ -100,10 +100,10 @@
         },
         {
             "name": "wordpress",
-            "version": "4.8.1",
+            "version": "4.9.8",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.8.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.9.8.zip",
                 "reference": null,
                 "shasum": null
             },
