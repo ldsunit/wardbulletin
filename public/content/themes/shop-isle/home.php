@@ -139,8 +139,8 @@ if ( ! empty( $shop_isle_posts_per_page ) && ( $shop_isle_posts_per_page > 0 ) )
 
 						<!-- Pagination start-->
 						<div class="pagination font-alt">
-							<?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
-							<?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
+							<?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Previous Bulletin', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
+							<?php previous_posts_link( __( 'Next Bulletin <span class="meta-nav">&raquo;</span>', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
 						</div>
 						<!-- Pagination end -->
 					</div>
