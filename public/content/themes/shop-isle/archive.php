@@ -61,7 +61,7 @@ global $wp_query; $wp_query->set('posts_per_page', 10);
 					<?php
 
 					while ( have_posts() ) {
-//						the_post();
+						the_post();
 
 						?>
 						<div id="post-<?php the_ID(); ?>" <?php post_class( 'post' ); ?>>
