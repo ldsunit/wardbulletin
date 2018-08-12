@@ -8,12 +8,7 @@
  * @subpackage Shop Isle
  */
 ?>
-<?php
-get_header();
-
-// show up to 10 bulletins on the archive page
-global $wp_query; $wp_query->set('posts_per_page', 10);
-?>
+<?php get_header(); ?>
 
 <!-- Wrapper start -->
 <div class="main">

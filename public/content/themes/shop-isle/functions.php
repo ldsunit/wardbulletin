@@ -32,3 +32,14 @@ require get_template_directory() . '/inc/init.php';
  * Note: Do not add any custom code here. Please use a child theme so that your customizations aren't lost during updates.
  * http://codex.wordpress.org/Child_Themes
  */
+
+
+/**
+ * Extend maximum number of posts per page on archives to 10
+ */
+function wpsites_query( $query ) {
+if ( $query->is_archive() && $query->is_main_query() && !is_admin() ) {
+        $query->set( 'posts_per_page', 10 );
+    }
+}
+add_action( 'pre_get_posts', 'wpsites_query' );
