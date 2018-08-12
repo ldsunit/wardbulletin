@@ -8,7 +8,12 @@
  * @subpackage Shop Isle
  */
 ?>
-<?php get_header(); ?>
+<?php
+get_header();
+
+// show up to 10 bulletins on the archive page
+global $wp_query; $wp_query->set('posts_per_page', 10);
+?>
 
 <!-- Wrapper start -->
 <div class="main">
@@ -56,20 +61,20 @@
 					<?php
 
 					while ( have_posts() ) {
-						the_post();
+//						the_post();
 
 						?>
 						<div id="post-<?php the_ID(); ?>" <?php post_class( 'post' ); ?>>
 
-							<?php
-							if ( has_post_thumbnail() ) {
-								echo '<div class="post-thumbnail">';
-								echo '<a href="' . esc_url( get_permalink() ) . '">';
-								echo get_the_post_thumbnail( $post->ID, 'shop_isle_blog_image_size' );
-								echo '</a>';
-								echo '</div>';
-							}
-							?>
+<!--							--><?php
+//							if ( has_post_thumbnail() ) {
+//								echo '<div class="post-thumbnail">';
+//								echo '<a href="' . esc_url( get_permalink() ) . '">';
+//								echo get_the_post_thumbnail( $post->ID, 'shop_isle_blog_image_size' );
+//								echo '</a>';
+//								echo '</div>';
+//							}
+//							?>
 
 							<div class="post-header font-alt">
 								<h2 class="post-title entry-title"><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_title(); ?></a></h2>
@@ -82,8 +87,8 @@
 
 					<!-- Pagination start-->
 					<div class="pagination font-alt">
-						<?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older posts', 'shop-isle' ) ); ?>
-						<?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&raquo;</span>', 'shop-isle' ) ); ?>
+						<?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Older', 'shop-isle' ) ); ?>
+						<?php previous_posts_link( __( 'Newer <span class="meta-nav">&raquo;</span>', 'shop-isle' ) ); ?>
 						</div>
 						<!-- Pagination end -->
 						</div>
