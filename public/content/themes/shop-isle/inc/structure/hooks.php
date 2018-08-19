@@ -76,7 +76,6 @@ add_action( 'shop_isle_single_post', 'shop_isle_post_header', 10 );
 add_action( 'shop_isle_single_post', 'shop_isle_post_meta', 20 );
 add_action( 'shop_isle_single_post', 'shop_isle_post_content', 30 );
 add_action( 'shop_isle_single_post_after', 'shop_isle_post_nav', 10 );
-add_action( 'shop_isle_single_post_after', 'shop_isle_display_comments', 10 );
 
 /**
  * Pages
