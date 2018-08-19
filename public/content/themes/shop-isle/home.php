@@ -55,11 +55,11 @@ if ( ! empty( $page_for_posts_id ) ) {
 //
 //					?>
 <!---->
-<!--				</div><!-- .col-sm-10 col-sm-offset-1 -->-->
+<!--				</div><!-- .col-sm-10 col-sm-offset-1 -->
 <!---->
-<!--			</div><!-- .row -->-->
+<!--			</div><!-- .row -->
 <!---->
-<!--		</div><!-- .container -->-->
+<!--		</div><!-- .container -->
 <!---->
 <?php
 //echo '</section><!-- .module -->';
