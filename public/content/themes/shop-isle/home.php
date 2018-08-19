@@ -136,12 +136,12 @@ if ( ! empty( $shop_isle_posts_per_page ) && ( $shop_isle_posts_per_page > 0 ) )
 						}// End while().
 
 						?>
-
+                        <?php shop_isle_post_nav(); ?>
 						<!-- Pagination start-->
-						<div class="pagination font-alt">
-							<?php next_posts_link( __( '<span class="meta-nav">&laquo;</span> Previous Bulletin', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
-							<?php previous_posts_link( __( 'Next Bulletin <span class="meta-nav">&raquo;</span>', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
-						</div>
+<!--						<div class="pagination font-alt">-->
+<!--							--><?php //next_posts_link( __( '<span class="meta-nav">&laquo;</span> Previous Bulletin', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
+<!--							--><?php //previous_posts_link( __( 'Next Bulletin <span class="meta-nav">&raquo;</span>', 'shop-isle' ), $shop_isle_query->max_num_pages ); ?>
+<!--						</div>-->
 						<!-- Pagination end -->
 					</div>
 					<!-- Content column end -->
