@@ -1,0 +1,747 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Script Optimizer\n"
+"POT-Creation-Date: 2016-09-05 21:17+0200\n"
+"PO-Revision-Date: 2016-09-05 21:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;_ex;_nx:1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/ajax_functions.class.php:52
+msgid "All data and settings will be deleted! Continue?"
+msgstr "Alle Daten und Einstellungen werden gelöscht! Fortfahren?"
+
+#: classes/ajax_functions.class.php:53
+#, php-format
+msgid ""
+"The page with the query string \"%s\" is not reachable. It will be removed..."
+msgstr ""
+"Die Seite mit dem Query-String \"%s\" ist nicht erreichbar. Der Eintrag wird "
+"gelöscht..."
+
+#: classes/ajax_functions.class.php:54
+msgid ""
+"All scripts and styles of this page that do exist in the global tab, will be "
+"synchronized. Continue?"
+msgstr ""
+"Alle Skripte und Stylesheets auf dieser Seite, die ebenfalls im globalen Tab "
+"existieren, werden mit diesen synchronisiert. Fortfahren?"
+
+#: classes/ajax_functions.class.php:222
+msgid "Reset field"
+msgstr "Eingabe löschen"
+
+#: classes/ajax_functions.class.php:227
+msgid "Please enter a valid URL."
+msgstr "Bitte gib eine gültige URL ein."
+
+#: classes/ajax_functions.class.php:233
+msgid "Only internal url's are allowed."
+msgstr "Es sind nur interne URL's erlaubt."
+
+#: classes/ajax_functions.class.php:239
+msgid "Admin url's are not allowed."
+msgstr "Es sind keine Admin URL's erlaubt."
+
+#: classes/ajax_functions.class.php:260
+msgid "Get Scripts & Styles"
+msgstr "Hole Scripts & Styles"
+
+#: classes/ajax_functions.class.php:262
+msgid "Sync with global settings"
+msgstr "Mit globalen Einstellungen synchronisieren"
+
+#: classes/ajax_functions.class.php:262
+msgid ""
+"If checked, every single script or style will take over the global settings, "
+"except it don't exist in the global scope."
+msgstr ""
+"Wenn aktiviert werden alle Skripte und Stylesheets, die globalen "
+"Einstellungen übernehmen, sofern sie global existieren."
+
+#: classes/ajax_functions.class.php:266
+#, php-format
+msgid ""
+"Url cannot be loaded or you have tried to check the front page - Statuscode: "
+"%d"
+msgstr ""
+"URL konnte nicht geladen werden oder du hast versucht, die Startseite zu "
+"checken - Statuscode %d"
+
+#: classes/ajax_functions.class.php:315
+msgid "Number of scripts"
+msgstr "Anzahl der Skripte"
+
+#: classes/ajax_functions.class.php:316
+msgid "Number of styles"
+msgstr "Anzahl der Stylesheets"
+
+#: classes/ajax_functions.class.php:324
+msgid "No saved query string settings found"
+msgstr "Keine gespeicherten Query-String-Einstellungen gefunden"
+
+#: classes/conditions.class.php:56 classes/conditions.class.php:76
+msgid "Will be integrated, if"
+msgstr "Wird eingebunden, wenn"
+
+#: classes/conditions.class.php:69 classes/conditions.class.php:102
+msgid "or"
+msgstr "oder"
+
+#: classes/conditions.class.php:71 classes/conditions.class.php:107
+msgid "Add condition group"
+msgstr "Regelgruppe hinzufügen"
+
+#: classes/conditions.class.php:161
+msgid "General"
+msgstr "Allgemein"
+
+#: classes/conditions.class.php:162
+msgid "Page Type"
+msgstr "Seiten-Typ"
+
+#: classes/conditions.class.php:164
+msgid "Posts"
+msgstr "Beiträge"
+
+#: classes/conditions.class.php:165
+msgid "Post Type"
+msgstr "Post Type"
+
+#: classes/conditions.class.php:166
+msgid "Post Format"
+msgstr "Beitragsformat"
+
+#: classes/conditions.class.php:167
+msgid "Post Category"
+msgstr "Kategorie"
+
+#: classes/conditions.class.php:168
+msgid "Post Taxonomy"
+msgstr "Taxonomie"
+
+#: classes/conditions.class.php:169 classes/conditions.class.php:241
+msgid "Post"
+msgstr "Beitrag"
+
+#: classes/conditions.class.php:171 classes/conditions.class.php:174
+#: classes/conditions.class.php:244
+msgid "Page"
+msgstr "Seite"
+
+#: classes/conditions.class.php:172
+msgid "Page Template"
+msgstr "Seiten-Template"
+
+#: classes/conditions.class.php:173
+msgid "Parent Page"
+msgstr "Übergeordnete Seite"
+
+#: classes/conditions.class.php:176
+msgid "User"
+msgstr "Benutzer"
+
+#: classes/conditions.class.php:177
+msgid "Current User Role"
+msgstr "Aktuelle Benutzerrolle"
+
+#: classes/conditions.class.php:202
+msgid "Is equal"
+msgstr "Ist gleich"
+
+#: classes/conditions.class.php:203
+msgid "Is not equal"
+msgstr "Ist nicht gleich"
+
+#: classes/conditions.class.php:239
+msgid "Blog Homepage"
+msgstr "Blog-Hauptseite"
+
+#: classes/conditions.class.php:240
+msgid "Front Page"
+msgstr "Startseite"
+
+#: classes/conditions.class.php:242
+msgid "Sticky"
+msgstr "Angeheftet"
+
+#: classes/conditions.class.php:243
+msgid "Comments open"
+msgstr "Kommentare geöffnet"
+
+#: classes/conditions.class.php:245
+msgid "Archive"
+msgstr "Archiv"
+
+#: classes/conditions.class.php:246
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: classes/conditions.class.php:247
+msgid "404"
+msgstr "404"
+
+#: classes/conditions.class.php:248
+msgid "Attachment"
+msgstr "Anhang"
+
+#: classes/conditions.class.php:303
+msgid "Default Template"
+msgstr "Standardtemplate"
+
+#: classes/conditions.class.php:353
+msgid "and"
+msgstr "und"
+
+#: classes/list.class.php:243
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: classes/list.class.php:246
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s Eintrag"
+msgstr[1] "%s Einträge"
+
+#: classes/list.class.php:268
+msgid "No items found."
+msgstr "Keine Einträge gefunden."
+
+#: classes/list.class.php:326
+msgid "Placeholder for \"jquery-core\" and \"jquery-migrate\""
+msgstr "Platzhalter für \"jquery-core\" und \"jquery-migrate\""
+
+#: classes/list.class.php:327
+msgid "Open file in new tab"
+msgstr "Öffnet Datei in einem neuen Tab"
+
+#: classes/list.class.php:335
+msgid "Wordpress Core-File. Be careful, if you change it!"
+msgstr "Wordpress Kern-Datei. Sei vorsichtig beim anpassen!"
+
+#: classes/list.class.php:340
+msgid "Requires:"
+msgstr "Benötigt:"
+
+#: classes/list.class.php:346
+msgid "Deactivated"
+msgstr "Deaktiviert"
+
+#: classes/list.class.php:352
+msgid "Conditions defined"
+msgstr "Bedingungen festgelegt"
+
+#: classes/list.class.php:389
+msgid ""
+"Create a set of rules that determine when this file is enqueued on your "
+"website."
+msgstr ""
+"Erstelle ein Regelwerk, welches festlegt, wann eine Datei auf deiner Seite "
+"eingebunden wird."
+
+#: classes/list.class.php:395
+msgid "Remove all conditions"
+msgstr "Alle Regeln entfernen"
+
+#: classes/list.class.php:396
+msgid "Save & Close"
+msgstr "Speichern & Schließen"
+
+#: classes/list.class.php:432 classes/list.class.php:531
+msgid "Reset to original state"
+msgstr "In den Originalzustand"
+
+#: classes/list.class.php:449 classes/list.class.php:528
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: classes/list.class.php:463 classes/list.class.php:529
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: classes/list.class.php:481 classes/list.class.php:534
+msgid "Into Header"
+msgstr "In den Kopfbereich"
+
+#: classes/list.class.php:495 classes/list.class.php:535
+msgid "Into Footer"
+msgstr "In den Fußbereich"
+
+#: classes/list.class.php:500
+msgid "Change conditions"
+msgstr "Bedingungen ändern"
+
+#: classes/list.class.php:527
+msgid "Bulk Actions"
+msgstr "Aktion wählen"
+
+#: classes/list.class.php:530
+msgid "Remove conditions"
+msgstr "Bedingungen entfernen"
+
+#: templates/admin_page_global.php:5 templates/admin_page_single.php:5
+#: wp-script-optimizer.php:211
+msgid "Global"
+msgstr "Global"
+
+#: templates/admin_page_global.php:6 templates/admin_page_single.php:6
+#: wp-script-optimizer.php:220
+msgid "Single pages"
+msgstr "Einzelne Seiten"
+
+#: templates/admin_page_global.php:10
+msgid ""
+"Here you see all scripts & stylesheets that are enqueued on your site's "
+"frontpage, so in fact they are mostly included without any conditions (they "
+"are global). The view is divided in scripts on the left and stylesheets on "
+"the right side. You can switch between header and footer on both lists. You "
+"have also several options to customize every single file. Click on help in "
+"the upper right corner for more infos."
+msgstr ""
+"Hier siehst du alle Skripte & Stylesheets, die auf der Frontpage deiner "
+"Seite eingebunden sind, also jene, die in den meisten Fällen ohne jegliche "
+"Konditionen eingebunden sind (sie sind global). Die Ansicht ist aufgeteilt "
+"in Skripte auf der linken und Stylesheets auf der rechten Seite. Du kannst "
+"in beiden Listen zwischen Kopf- und Fußbereich wechseln. Dir stehen außerdem "
+"mehrere Optionen zur Anpassung jeder einzelnen Datei zur Verfügung. Klicke "
+"auf Hilfe in der oberen rechten Ecke für weitere Informationen."
+
+#: templates/admin_page_global.php:15
+msgid "Get/Update Global Scripts & Styles"
+msgstr "Hole/Aktualisiere globale Skripte & Styles"
+
+#: templates/admin_page_global.php:16
+msgid "Delete global lists"
+msgstr "Lösche globale Listen"
+
+#: templates/admin_page_global.php:26 templates/admin_page_single.php:55
+#, php-format
+msgid "Scripts (%d)"
+msgstr "Skripte (%d)"
+
+#: templates/admin_page_global.php:53 templates/admin_page_global.php:108
+#: templates/admin_page_single.php:82 templates/admin_page_single.php:137
+msgid "Header"
+msgstr "Kopfbereich"
+
+#: templates/admin_page_global.php:56 templates/admin_page_global.php:111
+#: templates/admin_page_single.php:85 templates/admin_page_single.php:140
+msgid "Footer"
+msgstr "Fußbereich"
+
+#: templates/admin_page_global.php:81 templates/admin_page_single.php:110
+#, php-format
+msgid "Styles (%d)"
+msgstr "Stylesheets (%d)"
+
+#: templates/admin_page_global.php:140
+msgid "Wrong Query String"
+msgstr "Falscher  Query String"
+
+#: templates/admin_page_global.php:143
+msgid ""
+"You have called this site with an other query_string than 'global'. Please "
+"use the 'Single pages' tab instead."
+msgstr ""
+"Du hast diese Seite mit einem anderen query_string als 'global' aufgerufen. "
+"Bitte nutze stattdessen das Tab 'Einzelne Seiten'."
+
+#: templates/admin_page_single.php:10
+msgid ""
+"Here you can add any of your frontend-pages to show all scripts & "
+"stylesheets that are enqueued on that specific page. Then you can customize "
+"these files and save your settings, so you can change them again later if "
+"needed. The view is divided in scripts on the left and stylesheets on the "
+"right side. You can switch between header and footer on both lists. Keep in "
+"mind that single page settings always overwrite global settings. Click on "
+"help in the upper right corner for more infos."
+msgstr ""
+"Hier kannst du jede deiner Frontend-Seiten hinzufügen, um alle Skripte und "
+"Stylesheets zu sehen, die auf dieser spezifischen Seite eingebunden sind. "
+"Dann kannst du diese Dateien anpassen und deine Einstellungen speichern, um "
+"sie später wieder aufrufen zu können. Die Ansicht ist geteilt in Skripte auf "
+"der linken und Stylesheets auf der rechten Seite. Du kannst bei beiden "
+"zwischen Kopf- und Fußbereich wechseln. Denke daran, dass \"Einzelne Seiten"
+"\"-Einstellungen, globale Einstellungen überschreiben. Klicke auf Hilfe, in "
+"der oberen rechten Ecke, für weitere Informationen."
+
+#: templates/admin_page_single.php:16
+msgid "Update this page"
+msgstr "Aktualisiere diese Seite"
+
+#: templates/admin_page_single.php:17
+msgid "Delete this page"
+msgstr "Lösche diese Seite"
+
+#: templates/admin_page_single.php:18
+msgid "Sync page with global"
+msgstr "Synchronisiere Seite mit Global"
+
+#: templates/admin_page_single.php:27
+msgid "Add page"
+msgstr "Seite hinzufügen"
+
+#: templates/admin_page_single.php:29
+msgid "Get Scripts & Styles for a specific url"
+msgstr "Hole Scripts & Stylesheets für eine bestimmte URL"
+
+#: templates/admin_page_single.php:32
+msgid "Paste or type a url here..."
+msgstr "URL eingeben oder einfügen..."
+
+#: templates/admin_page_single.php:40
+msgid "Saved pages"
+msgstr "Gespeicherte Seiten"
+
+#: templates/admin_page_single.php:42
+msgid "This list shows all saved query strings (pages)"
+msgstr "Diese Liste zeigt alle gespeicherten Query-Strings (Seiten)"
+
+#: templates/admin_page_single.php:43
+msgid "Update all"
+msgstr "Alle aktualisieren"
+
+#: templates/admin_page_single.php:43
+msgid "Delete all"
+msgstr "Alle löschen"
+
+#: templates/admin_page_single.php:169
+msgid "Add a new page <br> -- or -- <br> choose a previously saved page"
+msgstr ""
+"Füge eine neue Seite hinzu <br> -- oder -- <br> wähle eine vorher "
+"gespeicherte Seite"
+
+#: wp-script-optimizer.php:199
+msgid "WP Scripts & Styles Optimizer -> Scripts"
+msgstr "WP Scripts & Styles Optimizer -> Skripte"
+
+#: wp-script-optimizer.php:200
+msgid "WP Scripts & Styles Optimizer"
+msgstr "WP Scripts & Styles Optimizer"
+
+#: wp-script-optimizer.php:210
+msgid "WP Scripts & Styles Optimizer -> Global"
+msgstr "WP Scripts & Styles Optimizer -> Global"
+
+#: wp-script-optimizer.php:219
+msgid "WP Scripts & Styles Optimizer -> Single pages"
+msgstr "WP Scripts & Styles Optimizer -> Einzelne Seiten"
+
+#: wp-script-optimizer.php:244 wp-script-optimizer.php:261
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast nicht die Berechtigung, um diese Seite zu sehen."
+
+#: wp-script-optimizer.php:1032
+#, php-format
+msgid ""
+"Your plugins have been changed. Please click <a href=\"%s\">here</a> to "
+"update and review all of your <b>WP Scripts & Styles Optimizer</b> lists."
+msgstr ""
+"Deine Plugins haben sich verändert. Bitte klicke <a href=\"%s\">hier</a>, um "
+"deine <b>WP Scripts & Styles Optimizer</b> Listen zu aktualisieren und zu "
+"prüfen."
+
+#: wp-script-optimizer.php:1041
+#, php-format
+msgid ""
+"You have switched your theme. Please click <a href=\"%s\">here</a> to update "
+"and review all of your <b>WP Scripts & Styles Optimizer</b> lists."
+msgstr ""
+"Du hast dein Theme gewechselt. Bitte klicke <a href=\"%s\">hier</a>, um "
+"deine <b>WP Scripts & Styles Optimizer</b> Listen zu aktualisieren und zu "
+"prüfen."
+
+#: wp-script-optimizer.php:1060
+#, php-format
+msgid "<b>%s</b> script was added"
+msgid_plural "<b>%s</b> scripts were added"
+msgstr[0] "<b>%s</b> Skript wurde hinzugefügt"
+msgstr[1] "<b>%s</b> Skripte wurden hinzugefügt"
+
+#: wp-script-optimizer.php:1070
+#, php-format
+msgid "<b>%s</b> style was added"
+msgid_plural "<b>%s</b> styles were added"
+msgstr[0] "<b>%s</b> Style wurde hinzugefügt"
+msgstr[1] "<b>%s</b> Styles wurden hinzugefügt"
+
+#: wp-script-optimizer.php:1080
+#, php-format
+msgid "<b>%s</b> script was deleted, because it's not registered anymore"
+msgid_plural ""
+"<b>%s</b> scripts were deleted, because they're not registered anymore"
+msgstr[0] "<b>%s</b> Skript wurde gelöscht, weil es nicht mehr registriert ist"
+msgstr[1] ""
+"<b>%s</b> Skripte wurden gelöscht, weil sie nicht mehr registriert sind"
+
+#: wp-script-optimizer.php:1090
+#, php-format
+msgid "<b>%s</b> style was deleted, because it's not registered anymore"
+msgid_plural ""
+"<b>%s</b> styles were deleted, because they're not registered anymore"
+msgstr[0] ""
+"<b>%s</b> Stylesheet wurde gelöscht, weil es nicht mehr registriert ist"
+msgstr[1] ""
+"<b>%s</b> Stylesheets wurden gelöscht, weil sie nicht mehr registriert sind"
+
+#: wp-script-optimizer.php:1102
+#, php-format
+msgid ""
+"You have moved <b>%s</b> into footer. The following dependents were also "
+"moved:"
+msgstr ""
+"Du hast <b>%s</b> in den Fußbereich verschoben. Die folgenden abhängigen "
+"Einträge wurden ebenfalls verschoben:"
+
+#: wp-script-optimizer.php:1147
+msgid "Overview"
+msgstr "Übersicht"
+
+#: wp-script-optimizer.php:1148
+msgid ""
+"<p>Improve your site-rendering speed by customizing the output of all "
+"scripts and styles of Your site. You can disable unwanted scripts or styles, "
+"move them to the footer or set conditionals to determine where files are "
+"included and where not.</p>"
+msgstr ""
+"<p>Beschleunige das Rendern deiner Seite, durch Anpassung der Ausgabe alle "
+"Skripte und Stylesheets auf deiner Seite. Du kannst unerwünschte Skripte "
+"deaktivieren, sie in den Fußbereich verschieben oder Regeln erstellen, um zu "
+"bestimmen, wo Dateien eingebunden werden und wo nicht.</p>"
+
+#: wp-script-optimizer.php:1153
+msgid "Possible actions"
+msgstr "Mögliche Aktionen"
+
+#: wp-script-optimizer.php:1154
+msgid ""
+"<p>There are in general two ways, how you can modify the list items. "
+"Firstly, the item actions of each item (hover over them) and secondly the "
+"bulk actions at the top of each list.</p><p><ul><li><b>Activate / "
+"Deactivate</b> - Removes the item completely from your site's frontend or "
+"activate it.</li><li><b>Into Header / Into Footer</b> - Change the position "
+"of the selected items. If you move items with dependents to the footer, "
+"these files will moved too. (actually only for scripts)</"
+"li><li><b>Conditionals</b> - Here you can create a set of logical rules, to "
+"control where the item will show up. It uses Wordpress's conditional tags.</"
+"li><li><b>Reset to original state</b> - This option only shows up, if you "
+"have made any changes to an item. With one click you can remove all custom "
+"changes and get it back to it's original state.</li></ul></p>"
+msgstr ""
+"<p>Es gibt im Allgemeinen zwei Wege, um die Listen-Items zu modifizieren. "
+"Als erstes die Item-Aktionen jedes einzelnen Items (mit der Maus darüber "
+"fahren) und zweitens die Massenaktionen am Kopf jeder Liste.</"
+"p><p><ul><li><b>Aktivieren / Deaktivieren</b> - Entfernt das Item komplett "
+"von deiner Seite oder aktiviert es wieder.</li><li><b>In den Kopfbereich / "
+"In den Fußbereich</b> - Ändere die Position der ausgewählten Items. Wenn du "
+"Items mit davon abhängigen Items in den Fußbereich verschiebst, werden diese "
+"ebenfalls verschoben (aktuell nur bei Skripten möglich)</"
+"li><li><b>Bedingungen</b> - Hier kannst du ein Regelwerk erstellen, um zu "
+"kontrollieren, wo das Item angezeigt wird. Dafür werden die \"Conditional "
+"Tags\" von Wordpress benutzt.</li><li><b>Auf den Originalzustand "
+"zurücksetzen</b> - Diese Option erscheint nur dann, wenn an einem Item "
+"bereits Änderungen vorgenommen wurden. Mit einem Klick werden alle "
+"Änderungen entfernt und es wird in seinen Originalzustand überführt.</li></"
+"ul></p>"
+
+#: wp-script-optimizer.php:1159
+msgid "Important notice"
+msgstr "Wichtiger Hinweis"
+
+#: wp-script-optimizer.php:1160
+msgid ""
+"<p>It may happen that some of your settings will be ignored!</p><p>This is "
+"because Wordpress has an internal logic to consider that no script or style "
+"is enqueued, which needed a file that is not enqueued with your current "
+"settings</p><p>The same applies to the positioning of scripts. <b>For "
+"example</b>: if you move a script to the footer, it still remains in the "
+"header, if there is any script left that need it above itself.</p>"
+msgstr ""
+"<p>Es kann unter Umständen vorkommen, dass Einstellungen ignoriert werden!</"
+"p><p>Das liegt daran, dass Wordpress eine interne Logik besitzt, die "
+"verhindert, dass Skripte oder Styles eingebunden werden, die selbst eine "
+"Datei benötigen, die mit den hier getätigten Einstellungen nicht vorhanden "
+"ist.</p><p>Dasselbe gilt für die Positionierung von Skripten. Beispiel: Wird "
+"ein Skript in den Fußbereich verschoben, obwohl es im Kopfbereich noch ein "
+"anderes Skript gibt, welches eben dieses Skript zur Ausführung benötigt, "
+"verbleibt es dennoch im Kopfbereich.</p>"
+
+#~ msgid ""
+#~ "Your plugins have been changed. Please click here to update and review "
+#~ "all of your <b>WP Scripts & Styles Optimizer</b> lists."
+#~ msgstr "Deine Plugins haben sich verändert. Bitte "
+
+#~ msgid ""
+#~ "Here you can add any of your frontend-pages to show all scripts & "
+#~ "stylesheets that are enqueued on that specific page. Then you can "
+#~ "customize these files and save your settings, so you can change them "
+#~ "again later if needed. The view is divided in scripts on the left and "
+#~ "stylesheets on the right side. You can switch between header and footer "
+#~ "on both lists. You have also several options to customize every single "
+#~ "file. Keep in mind that single page settings always overwrite global "
+#~ "settings. Click on help in the upper right corner for more infos."
+#~ msgstr ""
+#~ "Hier kannst du jede deiner Frontend-Seiten hinzufügen, um alle Skripte "
+#~ "und Stylesheets zu sehen, die auf dieser spezifischen Seite eingebunden "
+#~ "sind. Dann kannst du diese Dateien anpassen und deine Einstellungen "
+#~ "speichern, um sie später wieder aufrufen zu können. Die Ansicht ist "
+#~ "geteilt in Skripte auf der linken und Stylesheets auf der rechten Seite. "
+#~ "Du kannst bei beiden zwischen Kopf- und Fußbereich wechseln."
+
+#~ msgid ""
+#~ "No items found. Click <a href=\"#\" class=\"wpso-update-list\">here</a> "
+#~ "to update this list"
+#~ msgstr ""
+#~ "Keine Items gefunden. Klicke <a href=\"#\" class=\"wpso-update-list"
+#~ "\">hier</a>, um die Liste zu aktualisieren."
+
+#~ msgid "Could not be found"
+#~ msgstr "Konnte nicht gefunden werden"
+
+#~ msgid "Delete"
+#~ msgstr "Entfernen"
+
+#~ msgid "Plugins have changed. Please update the list."
+#~ msgstr "Plugins wurden verändert. Bitte aktualisiere die Liste."
+
+#~ msgid ""
+#~ "Current Theme switched. Please update or reset the list if applicable."
+#~ msgstr ""
+#~ "Aktuelles Theme wurde gewechselt. Bitte aktualisiere die Liste oder setze "
+#~ "sie komplett zurück, falls möglich."
+
+#~ msgid "Scripts (global)"
+#~ msgstr "Skripte (global)"
+
+#~ msgid "Styles (global)"
+#~ msgstr "Styles (global)"
+
+#~ msgid "Update Lists"
+#~ msgstr "Listen aktualisieren"
+
+#~ msgid "Clear Lists"
+#~ msgstr "Listen leeren"
+
+#~ msgid "The following scripts are currently included in your site's header"
+#~ msgstr ""
+#~ "Die folgenden Skripte sind aktuell im Kopfbereich deiner Seite eingebunden"
+
+#~ msgid "The following scripts are currently included in your site's footer"
+#~ msgstr ""
+#~ "Die folgenden Skripte sind aktuell im Fußbereich deiner Seite eingebunden"
+
+#~ msgid "The following styles are currently included in your site's header"
+#~ msgstr ""
+#~ "Die folgenden Styles sind aktuell im Kopfbereich deiner Seite eingebunden"
+
+#~ msgid "The following styles are currently included in your site's footer"
+#~ msgstr ""
+#~ "Die folgenden Styles  sind aktuell im Fußbereich deiner Seite eingebunden"
+
+#~ msgid "Scripts"
+#~ msgstr "Skripte"
+
+#~ msgid "WP Scripts & Styles Optimizer -> Styles"
+#~ msgstr "WP Scripts & Styles Optimizer -> Styles"
+
+#~ msgid "Styles"
+#~ msgstr "Styles"
+
+#~ msgid "WP Script Optimizer -> Scripts"
+#~ msgstr "WP Script Optimizer -> Skripte"
+
+#~ msgid "WP Script Optimizer -> Styles"
+#~ msgstr "WP Script Optimizer -> Styles"
+
+#~ msgid "Moving stylesheets to the footer is not yet possible"
+#~ msgstr "Das Verschieben von Styles in den Fußbereich ist noch nicht möglich"
+
+#~ msgid "WP Script Optimizer"
+#~ msgstr "WP Script Optimizer"
+
+#~ msgid "Is unequal"
+#~ msgstr "Ist ungleich"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Group"
+#~ msgstr "Gruppe"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "No longer registered"
+#~ msgstr "Nicht länger registriert"
+
+#~ msgid "Title"
+#~ msgstr "Titel"
+
+#~ msgid "Status (original)"
+#~ msgstr "Status (Original)"
+
+#~ msgid "Status (current)"
+#~ msgstr "Status (Aktuell)"
+
+#~ msgid "All <span class=\"count\">(%s)</span>"
+#~ msgstr "Alle <span class=\"count\">(%s)</span>"
+
+#~ msgid "Scripts <span class=\"count\">(%s)</span>"
+#~ msgstr "Skripte <span class=\"count\">(%s)</span>"
+
+#~ msgid "Styles <span class=\"count\">(%s)</span>"
+#~ msgstr "Styles <span class=\"count\">(%s)</span>"
+
+#~ msgid "In Header <span class=\"count\">(%s)</span>"
+#~ msgstr "Im Kopfbereich <span class=\"count\">(%s)</span>"
+
+#~ msgid "In Footer <span class=\"count\">(%s)</span>"
+#~ msgstr "Im Fußbereich <span class=\"count\">(%s)</span>"
+
+#~ msgid "Deactivated <span class=\"count\">(%s)</span>"
+#~ msgstr "Deaktiviert <span class=\"count\">(%s)</span>"
+
+#~ msgid "Not registered <span class=\"count\">(%s)</span>"
+#~ msgstr "Nicht registriert <span class=\"count\">(%s)</span>"
+
+#~ msgid "Conditions"
+#~ msgstr "Bedingungen"
+
+#~ msgid ""
+#~ "Create a set of rules that determine when a Javascript or stylesheet file "
+#~ "is enqueued on your website."
+#~ msgstr ""
+#~ "Erstelle hier ein Regelwerk, welches festlegt, wann eine JavaScript- oder "
+#~ "Stylesheet-Datei auf deiner Seite eingebunden wird."
+
+#~ msgid "About WP Sript Optimizer"
+#~ msgstr "Über WP Script Optimizer"
+
+#~ msgid ""
+#~ "Customize the output of all your JavaScript and CSS Files. Create rules "
+#~ "to control the conditions whether or not a script or stylesheet is "
+#~ "enqueued on a specific page."
+#~ msgstr ""
+#~ "Individualisiere die Ausgabe all deiner JavaScript- oder CSS-Dateien. "
+#~ "Erstelle Regeln, um die Bedingungen zu kontrollieren, unter denen ein "
+#~ "Skript oder eine Stylesheet-Datei auf einer bestimmten Seite eingebunden "
+#~ "wird oder nicht."
+
+#~ msgid "Options"
+#~ msgstr "Optionen"
+
+#~ msgid "Update List"
+#~ msgstr "Liste aktualisieren"
+
+#~ msgid "Delete List"
+#~ msgstr "Liste löschen"
