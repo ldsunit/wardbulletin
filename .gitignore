@@ -2,6 +2,7 @@
 .env
 local-config.php
 debug.log
+.idea
 
 public/wp/
 public/content/uploads
