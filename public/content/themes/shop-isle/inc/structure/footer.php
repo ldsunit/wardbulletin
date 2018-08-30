@@ -83,7 +83,7 @@ if ( ! function_exists( 'shop_isle_footer_copyright_and_socials' ) ) {
 
 					<?php
 					/* Copyright */
-					$shop_isle_copyright = apply_filters( 'shop_isle_footer_copyright_filter', get_theme_mod( 'shop_isle_copyright' ) );
+//					$shop_isle_copyright = apply_filters( 'shop_isle_footer_copyright_filter', get_theme_mod( 'shop_isle_copyright' ) );
 //					echo '<div class="col-sm-6">';
 //					if ( ! empty( $shop_isle_copyright ) ) :
 //						echo '<p class="copyright font-alt">' . $shop_isle_copyright . '</p>';
